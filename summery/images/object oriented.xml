@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Letter [
+<!ENTITY address "15 Downing st Floor">
+<!ENTITY city "New York">
+]>
+
+
+<Letter>
+<To>&quot;Tom Smith&quot;</To>
+<Address>&adress;</Address>
+<City>&city;</City>
+
+
+<Body>
+hi ! how are you ?
+the sum is &gt; $1000
+</Body>
+<From>Robert </From>
+
+</Letter>
+
+
+<Students>
+    <Student>
+        <StudentName>Robert Akidiva</StudentName>
+        <StudentID>1</StudentID>
+        <StudentCourse>software engineering</StudentCourse>
+    </Student>
+    <Student>
+        <StudentName>Robert Msungu</StudentName>
+        <StudentID>2</StudentID>
+        <StudentCourse>data science</StudentCourse>
+    </Student>
+    <Student>
+        <StudentName>Robert Limoze</StudentName>
+        <StudentID>3</StudentID>
+        <StudentCourse>multimidia</StudentCourse>
+    </Student>
+</Students>
+
